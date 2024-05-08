@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Untitled Document</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="page">
+            <h1>List King</h1>
+            <h2>New Account</h2>
+
+            <!-- <div class="form-group has-success">
+                <label class="control-label" for="inputSuccess1">Input with success</label>
+                <input type="text" class="form-control" id="inputSuccess1" aria-describedby="helpBlock2">
+                <span id="helpBlock2" class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
+            </div> -->
+
+            <div class="form-group">
+                <label class="control-label" for="username">Create a username: </label>
+                <input type="text" class="form-control" id="username" onkeyup="checkUsername()" />
+                <span id="usernameHelper" class="help-block"></span>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label" for="password">Create a password: </label>
+                <input type="password" class="form-control" id="password" onkeyup="checkPassword()" />
+                <span id="passwordHelper" class="help-block"></span>
+            </div>
+
+            <input type="submit" value="sign up!" />
+        </div>
+        <script src="assets/js/event-attributes.js"></script>
+    </body>
+</html>
